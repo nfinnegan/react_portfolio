@@ -1,0 +1,67 @@
+header {
+  background-color: black;
+  padding-bottom: 25px;
+}
+.wrapper {
+  padding: 1rem;
+}
+/* PHOTO WRAPPED WITH NAME & JOB TO FORMAT */
+.nameJob {
+  padding-left: 30px;
+}
+/* NAME & JOB TITLE IN HEADER WRAPPED, SO I CAN FORMAT TOGETHER */
+.inline {
+  display: inline-block;
+  position: relative;
+  top: 35px;
+  left: 15px;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+/* MAKING MY PERSONAL PHOTO AN AVATAR */
+.personalImage {
+  border-radius: 75px;
+  height: 150px;
+  width: 150px;
+}
+
+/* RESUME BUTTON FORMATTING IN HEADER */
+.site-headerUL {
+  float: right;
+  position: relative;
+  top: 55px;
+  right: 15px;
+  display: inline-flex;
+}
+
+.nav-li,
+.skillsList {
+  list-style: none;
+}
+
+.skillsList {
+  display: -webkit-box;
+  position: relative;
+  right: 55px;
+}
+
+.jsImg,
+.bootImg {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.nav-a {
+  color: white;
+  padding: 10px;
+}
+
+.nav-li:hover {
+  font-size: large;
+}
+
+.nav-a:hover {
+  font-weight: bold;
+  color: indianred;
+}
