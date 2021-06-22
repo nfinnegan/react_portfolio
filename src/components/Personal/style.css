@@ -1,0 +1,12 @@
+.aboutMeHeader {
+  font-size: 36pt;
+}
+
+.aboutMe {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 40px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px #0d1b2a;
+}
