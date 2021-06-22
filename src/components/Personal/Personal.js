@@ -3,11 +3,11 @@ import "./style.css";
 
 const Personal = () => {
   return (
-    <div className="wrapper container">
+    <div className="wrapper">
       <div className="row">
-        <section className="aboutMeCard">
-          <div className="card aboutMe">
-            <h5 className="card-header aboutMeHeader">.aboutMe(personal)</h5>
+        <section className="personalCard">
+          <div className="card personalAboutMe">
+            <h5 className="card-header personalHeader">.aboutMe(personal)</h5>
             <div className="card-body">
               <p className="card-text">
                 👋 I am originally from a southwest suburb of Chicago. After

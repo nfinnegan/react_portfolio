@@ -3,7 +3,7 @@ import "./style.css";
 
 const Header = () => {
   return (
-    <header className="site-header">
+    <header className="container-fluid site-header">
       <div className="nameJob">
         <img
           alt="personal head shot"

@@ -3,7 +3,7 @@ import "./style.css";
 
 const About = () => {
   return (
-    <div className="wrapper container">
+    <div className="wrapper">
       <div className="row">
         <section className="aboutMeCard">
           <div className="card aboutMe">
@@ -65,6 +65,9 @@ const About = () => {
           </div>
         </section>
       </div>
+
+      <br></br>
+      <hr></hr>
     </div>
   );
 };

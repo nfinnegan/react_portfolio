@@ -29,18 +29,6 @@
   margin-top: 40px;
 }
 
-.skills {
-  text-align: center;
-  font-size: 45pt;
-  margin-top: 100px;
-}
-
-.skill-img {
-  max-width: 50%;
-  height: auto;
-  padding-top: 60px;
-}
-
 .card:hover {
   box-shadow: 5px 5px #0d1b2a;
 }
@@ -48,4 +36,13 @@
 .btn {
   border-radius: 50px;
   margin: 0px 15px;
+}
+
+@media (max-width: 414px) {
+  .aboutMeHeader {
+    font-size: 20pt;
+  }
+  .aboutMeCard {
+    margin: 10px;
+  }
 }

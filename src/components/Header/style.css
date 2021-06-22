@@ -65,3 +65,25 @@ header {
   font-weight: bold;
   color: indianred;
 }
+
+@media (max-width: 768px) {
+  .site-headerUL {
+    float: none;
+    position: absolute;
+    display: block;
+    top: 15px;
+  }
+  .nav-li {
+    padding: 5px;
+  }
+
+  .personalImage {
+    position: relative;
+    top: 15px;
+  }
+
+  .inline {
+    padding-bottom: 15px;
+    margin-left: 27px;
+  }
+}

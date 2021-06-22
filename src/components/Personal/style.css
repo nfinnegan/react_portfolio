@@ -1,12 +1,21 @@
-.aboutMeHeader {
+.personalHeader {
   font-size: 36pt;
 }
 
-.aboutMe {
+.personalAboutMe {
   font-family: "Source Sans Pro", sans-serif;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .card:hover {
   box-shadow: 5px 5px #0d1b2a;
+}
+
+@media (max-width: 414px) {
+  .personalHeader {
+    font-size: 20pt;
+  }
+  .personalCard {
+    margin: 10px;
+  }
 }
