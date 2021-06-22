@@ -1,0 +1,51 @@
+/* STYLING THE CONTACT ME ICONS TWITTER,LINKED,GITHUB, ETC */
+.icons {
+  background-color: #e0e1dd;
+  border-color: white;
+  color: black;
+}
+
+.icons:hover {
+  transform: scale(1.25);
+}
+
+.projPix:hover {
+  transform: scale(1.1);
+}
+
+.nav {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  bottom: 100px;
+}
+/* ABOUT ME SECTION STYLING/FORMATTING */
+.aboutMeHeader {
+  font-size: 36pt;
+}
+
+.aboutMe,
+.skills {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 40px;
+}
+
+.skills {
+  text-align: center;
+  font-size: 45pt;
+  margin-top: 100px;
+}
+
+.skill-img {
+  max-width: 50%;
+  height: auto;
+  padding-top: 60px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px #0d1b2a;
+}
+
+.btn {
+  border-radius: 50px;
+  margin: 0px 15px;
+}
