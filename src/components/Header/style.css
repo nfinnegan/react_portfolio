@@ -87,3 +87,16 @@ header {
     margin-left: 27px;
   }
 }
+
+@media (max-width: 1024px) {
+  .site-headerUL {
+    float: right;
+    position: relative;
+    right: 15px;
+    display: block;
+  }
+
+  .nav-li {
+    margin-top: 5px;
+  }
+}

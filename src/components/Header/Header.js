@@ -30,14 +30,16 @@ const Header = () => {
               .seeMyWork( )
             </a>
           </li>
-          {/* {{! <li className="nav-li" id="navSkills"><a
-                  className="nav-a"
-                  href="#skills"
-                >.skills( )</a></li>
-              <li className="nav-li" id="navTools"><a
-                  className="nav-a"
-                  href="#{tools}"
-                >.tools( )</a></li> }} */}
+          <li className="nav-li" id="navSkills">
+            <a className="nav-a" href="#skills">
+              .recommendations( )
+            </a>
+          </li>
+          <li className="nav-li" id="navTools">
+            <a className="nav-a" href="#{tools}">
+              .contactMe( )
+            </a>
+          </li>
         </ul>
       </div>
     </header>
