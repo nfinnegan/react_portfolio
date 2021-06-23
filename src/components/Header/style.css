@@ -100,3 +100,12 @@ header {
     margin-top: 5px;
   }
 }
+
+@media (max-width: 375px) {
+  .site-headerUL {
+    float: none;
+    position: absolute;
+    display: block;
+    top: 15px;
+  }
+}

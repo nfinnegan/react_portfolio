@@ -3,7 +3,7 @@ import "./style.css";
 
 const Personal = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper container">
       <div className="row">
         <section className="personalCard">
           <div className="card personalAboutMe">

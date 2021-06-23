@@ -8,7 +8,7 @@ const Header = () => {
         <img
           alt="personal head shot"
           className="personalImage"
-          src="/personal_photo_.png"
+          src="/assets/personal_photo_.png"
         />
         <div className="inline">
           <h1 className="display-4">Hi, I'm Natalie</h1>
