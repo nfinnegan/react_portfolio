@@ -10,14 +10,17 @@ const Personal = () => {
             <h5 className="card-header personalHeader">.aboutMe(personal)</h5>
             <div className="card-body">
               <p className="card-text">
-                👋 I am originally from a southwest suburb of Chicago. After
+                I am originally from a southwest suburb of Chicago. After
                 spending some time living in the city after college, I lived in
                 Los Angeles for a bit and currently reside in Denver, CO. I am a
                 first generation college graduate and take a lot of pride in
                 that. I am a quick-witted, empathetic and compassionate person.
-                I've taken a liking to hiking, love trying new restaurants and
-                traveling (favorite country so far is Italy). I try to do those
-                things as much as I can.
+                I love a challenge and am excited to start this second phase of
+                my career as a web developer!
+              </p>
+              <p>
+                In my free time:{" "}
+                <span id="forFun">⛰️ ✈️ ⛳ 🎾 🎶 💻 🏃 🍽️ </span>
               </p>
             </div>
           </div>

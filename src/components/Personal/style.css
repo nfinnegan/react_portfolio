@@ -11,6 +11,11 @@
   box-shadow: 5px 5px #0d1b2a;
 }
 
+#forFun {
+  font-size: 15pt;
+  margin-left:5px
+}
+
 @media (max-width: 414px) {
   .personalHeader {
     font-size: 20pt;

@@ -11,7 +11,9 @@ const Header = () => {
           src="/assets/personal_photo_.png"
         />
         <div className="inline">
-          <h1 className="display-4">Hi, I'm Natalie</h1>
+          <h1 className="display-4">
+            <span id="wave">👋</span>Hi, I'm Natalie
+          </h1>
           <h4 className="">Software Engineer</h4>
         </div>
         <ul className="site-headerUL">
