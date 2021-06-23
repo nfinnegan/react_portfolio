@@ -4,23 +4,23 @@
   margin-top: 70px;
 }
 
-h1 {
+.contactTitle {
   text-align: center;
   font-size: 40pt;
   font-family: "Source Sans Pro", sans-serif;
 }
 
-p {
+#contactP {
   text-align: center;
   font-size: 20pt;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 @media (max-width: 414px) {
-  h1 {
+  .contactTitle {
     font-size: 30pt;
   }
-  p {
+  #contactP {
     margin: 12pt;
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -38,9 +39,9 @@ const Header = () => {
             </a>
           </li>
           <li className="nav-li" id="navTools">
-            <a className="nav-a" href="#{tools}">
+            <Link className="nav-a" to="/contact">
               .contactMe( )
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

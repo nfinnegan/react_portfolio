@@ -4,8 +4,8 @@ import "./style.css";
 const Contact = () => {
   return (
     <div className="container airTableForm">
-      <h1>Let's Work Together</h1>
-      <p>
+      <h1 className="contactTitle">Let's Work Together</h1>
+      <p id="contactP">
         Drop me your contact and some information about the project below 👇{" "}
       </p>
       <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
