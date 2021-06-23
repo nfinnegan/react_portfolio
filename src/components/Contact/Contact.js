@@ -4,7 +4,7 @@ import "./style.css";
 const Contact = () => {
   return (
     <div className="container airTableForm">
-      <h1 className="contactTitle">Let's Work Together</h1>
+      <h1 className="contactTitle">💼 Let's Work Together</h1>
       <p id="contactP">
         Drop me your contact and some information about the project below 👇{" "}
       </p>

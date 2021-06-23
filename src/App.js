@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Skills from "./components/Skills/Skills";
 import Tools from "./components/Tools/Tools";
 import Contact from "./components/Contact/Contact";
+import Recco from "./components/Recommendations/Reccomendations";
 
 function App() {
   return (
@@ -21,8 +22,11 @@ function App() {
               <Skills />
               <Tools />
             </Route>
-            <Route path="/contact">
+            <Route exact path="/contact">
               <Contact />
+            </Route>
+            <Route exact path="/reccos">
+              <Recco />
             </Route>
           </Switch>
         </div>
