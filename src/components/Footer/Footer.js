@@ -25,7 +25,7 @@ const Footer = () => {
                 <i class="fab fa-github"></i>
               </a>
               <a
-                href="NatalieResume.pdf"
+                href="/assets/Resume_2021.pdf"
                 target="_blank"
                 class="btn btn-secondary navbar-brand icons"
               >

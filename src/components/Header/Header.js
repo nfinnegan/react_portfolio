@@ -21,7 +21,7 @@ const Header = () => {
           <li className="nav-li">
             <a
               className="nav-a"
-              href=" "
+              href="/assets/Resume_2021.pdf"
               target="_blank"
               alt="Natalie Finnegan Resume"
             >

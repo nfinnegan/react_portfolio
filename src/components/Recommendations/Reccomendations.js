@@ -1,12 +1,15 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Recco = () => {
   return (
     <div className="container">
       <div className="row">
         <div className="col-4 recsListTitle">
-          <h3>Parker Holcomb</h3>
+          <h3>
+            <strong>Parker Holcomb</strong>
+          </h3>
           <h5>
             <i>Chief AI Engineer</i>
           </h5>
@@ -24,9 +27,12 @@ const Recco = () => {
           </p>
         </div>
       </div>
+
       <div className="row">
         <div className="col-4 recsListTitle">
-          <h3>Joe Geraldi</h3>
+          <h3>
+            <strong>Joe Geraldi</strong>
+          </h3>
           <h5>
             <i>Director of Sales</i>
           </h5>
@@ -51,7 +57,9 @@ const Recco = () => {
       </div>
       <div className="row">
         <div className="col-4 recsListTitle">
-          <h3>John Morel</h3>
+          <h3>
+            <strong>John Morel</strong>
+          </h3>
           <h5>
             <i>SVP of Sales</i>
           </h5>
@@ -75,7 +83,9 @@ const Recco = () => {
       </div>
       <div className="row">
         <div className="col-4 recsListTitle">
-          <h3>Melissa Nocella</h3>
+          <h3>
+            <strong>Melissa Nocella</strong>
+          </h3>
           <h5>
             <i>Director, HR Business Partner</i>
           </h5>
@@ -92,9 +102,22 @@ const Recco = () => {
         </div>
       </div>
       <hr></hr>
+      <div>
+        <button type="button" class="projBtns">
+          <Link class="projLinks" alt="back to home" to="/">
+            Go Home
+          </Link>
+        </button>
+      </div>
       <h4 id="moreRecs">
         See more of what my former colleagues have said about working with me{" "}
-        <a href="https://www.linkedin.com/in/nataliefinnegan/">here</a>{" "}
+        <a
+          href="https://www.linkedin.com/in/nataliefinnegan/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          here
+        </a>{" "}
       </h4>
     </div>
   );

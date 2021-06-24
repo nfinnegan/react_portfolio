@@ -3,6 +3,7 @@
   margin-top: 40px;
   border-right: black solid 2px;
   text-align: right;
+  color: #353535;
 }
 
 .recsListBody {
@@ -10,9 +11,11 @@
   margin-top: 40px;
   font-size: 14pt;
   font-style: italic;
+  color: #4c5c68;
 }
 
 #moreRecs {
+  margin-top: 40px;
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
 }

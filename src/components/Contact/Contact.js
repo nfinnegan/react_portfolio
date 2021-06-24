@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -18,6 +19,13 @@ const Contact = () => {
         width="100%"
         height="926"
       ></iframe>
+      <div>
+        <button type="button" class="projBtns">
+          <Link class="projLinks" alt="back to home" to="/">
+            Go Home
+          </Link>
+        </button>
+      </div>
     </div>
   );
 };
