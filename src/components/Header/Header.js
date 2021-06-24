@@ -29,9 +29,9 @@ const Header = () => {
             </a>
           </li>
           <li className="nav-li">
-            <a id="prjPage" className="nav-a" href="/projects">
+            <Link id="prjPage" className="nav-a" to="/projects">
               .seeMyWork( )
-            </a>
+            </Link>
           </li>
           <li className="nav-li" id="navSkills">
             <Link className="nav-a" to="/reccos">

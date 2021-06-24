@@ -8,7 +8,7 @@ const About = () => {
         <section className="aboutMeCard">
           <div className="card aboutMe">
             <h5 className="card-header aboutMeHeader">
-              .aboutMe(professional)
+              <code className="code">.aboutMe(professional)</code>
             </h5>
             <div className="card-body">
               <p className="card-text">

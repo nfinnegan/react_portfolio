@@ -23,6 +23,10 @@
   font-size: 36pt;
 }
 
+code {
+  color: black;
+}
+
 .aboutMe,
 .skills {
   font-family: "Source Sans Pro", sans-serif;

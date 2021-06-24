@@ -8,6 +8,7 @@ import Skills from "./components/Skills/Skills";
 import Tools from "./components/Tools/Tools";
 import Contact from "./components/Contact/Contact";
 import Recco from "./components/Recommendations/Reccomendations";
+import Applications from "./components/Applications/Applications";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route exact path="/reccos">
               <Recco />
+            </Route>
+            <Route exact path="/projects">
+              <Applications />
             </Route>
           </Switch>
         </div>
