@@ -29,6 +29,16 @@
       "imageAlt": "Tech Blog Dashboard",
       "repo": "https://github.com/nfinnegan/tech_blog",
       "deployedApp": "https://calm-badlands-36882.herokuapp.com/"
+    },
+    {
+      "id": 4,
+      "title": "Team Generator",
+      "body": "This CLI application dynamically generates an HTML file displaying team members based off user input using the inquirer NPM package.",
+      "technologies": "JavaScript, Inquirer, Jest, Node, TDD, Bootstrap",
+      "imageUrl": "/images/teamgen.png",
+      "imageAlt": "team generator employee list",
+      "repo": "https://github.com/nfinnegan/TeamProfile_Generator",
+      "deployedApp": "https://www.youtube.com/watch?v=rUu5AgAt_Ko"
     }
   ]
 }
