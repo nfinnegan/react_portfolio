@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Recco = () => {
   return (
-    <div className="container">
+    <div>
       <div className="row">
         <div className="col-4 recsListTitle">
           <h3>

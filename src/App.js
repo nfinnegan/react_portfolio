@@ -15,7 +15,7 @@ function App() {
     <HashRouter>
       <div className="overallApp">
         <Header />
-        <div className="allContent">
+        <div className="allContent container">
           <Switch>
             <Route exact path="/">
               <About />
