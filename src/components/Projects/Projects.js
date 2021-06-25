@@ -41,7 +41,7 @@ const Projects = ({
             <img
               className="img-fluid"
               id="projPix"
-              src={imageURL}
+              src={process.env.PUBLIC_URL + imageURL}
               alt={imageAlt}
             />
           </a>

@@ -15,28 +15,28 @@ const Skills = () => {
               <li class="skillsItem">
                 <img
                   class="img-fluid skill-img"
-                  src="/icons/html2.png"
+                  src={process.env.PUBLIC_URL + "/icons/html2.png"}
                   alt="htmlIcon"
                 />
               </li>
               <li class="skillsItem">
                 <img
                   class="img-fluid skill-img"
-                  src="/icons/css.png"
+                  src={process.env.PUBLIC_URL + "/icons/css.png"}
                   alt="cssIcon"
                 />
               </li>
               <li class="skillsItem">
                 <img
                   class="img-fluid skill-img jsImg"
-                  src="/icons/js1.png"
+                  src={process.env.PUBLIC_URL + "/icons/js1.png"}
                   alt="jsIcon"
                 />
               </li>
               <li class="skillsItem">
                 <img
                   class="img-fluid skill-img bootImg"
-                  src="/icons/mongodb.png"
+                  src={process.env.PUBLIC_URL + "/icons/mongodb.png"}
                   alt="bootstrapIcon"
                 />
               </li>
@@ -49,28 +49,28 @@ const Skills = () => {
               <li class="skillsItem">
                 <img
                   class="img-fluid skill-img"
-                  src="/icons/node.png"
+                  src={process.env.PUBLIC_URL + "/icons/node.png"}
                   alt="nodeIcon"
                 />
               </li>
               <li class="skillsItem">
                 <img
                   class="img-fluid skill-img"
-                  src="/icons/express.png"
+                  src={process.env.PUBLIC_URL + "/icons/express.png"}
                   alt="expressIcon"
                 />
               </li>
               <li class="skillsItem">
                 <img
                   class="img-fluid skill-img jsImg"
-                  src="/icons/mysql.png"
+                  src={process.env.PUBLIC_URL + "/icons/mysql.png"}
                   alt="jsIcon"
                 />
               </li>
               <li class="skillsItem">
                 <img
                   class="img-fluid skill-img bootImg"
-                  src="/icons/react.png"
+                  src={process.env.PUBLIC_URL + "/icons/react.png"}
                   alt="bootstrapIcon"
                 />
               </li>

@@ -16,20 +16,23 @@ const Tools = () => {
               <div class="card-header toolHeader">Creating:</div>
               <ul id="#tools" class="createList">
                 <li class="createItem">
-                  <img src="/icons/vs-code.png" atl="visual studio code icon" />
+                  <img
+                    src={process.env.PUBLIC_URL + "/icons/vs-code.png"}
+                    alt="visual studio code icon"
+                  />
                 </li>
                 <li class="createItem">
                   <img
                     class="miroIcon"
-                    src="/icons/miro.png"
-                    atl="miroboard tool icon"
+                    src={process.env.PUBLIC_URL + "/icons/miro.png"}
+                    alt="miroboard tool icon"
                   />
                 </li>
                 <li class="createItem">
                   <img
                     class="gitHubIcon"
-                    src="/icons/github1.png"
-                    atl="gitHub icon"
+                    src={process.env.PUBLIC_URL + "/icons/github1.png"}
+                    alt="gitHub icon"
                   />
                 </li>
               </ul>
@@ -42,22 +45,22 @@ const Tools = () => {
                 <li class="createItem">
                   <img
                     class="listIcons2"
-                    src="/icons/slack-logo.png"
-                    atl="slack icon"
+                    src={process.env.PUBLIC_URL + "/icons/slack-logo.png"}
+                    alt="slack icon"
                   />
                 </li>
                 <li class="createItem">
                   <img
                     class="listIcons2"
-                    src="/icons/airtable.png"
-                    atl="airtableIcon"
+                    src={process.env.PUBLIC_URL + "/icons/airtable.png"}
+                    alt="airtableIcon"
                   />
                 </li>
                 <li class="createItem">
                   <img
                     class="listIcons2"
-                    src="/icons/google-sheets.png"
-                    atl="googleIcon"
+                    src={process.env.PUBLIC_URL + "/icons/google-sheets.png"}
+                    alt="googleIcon"
                   />
                 </li>
               </ul>
