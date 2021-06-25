@@ -12,6 +12,26 @@
     },
     {
       "id": 2,
+      "title": "Employee Directory",
+      "body": "This React application allows a user to filter employees by last name/email or search by first name. Each refresh makes a call to Random User API to fetch mock data. Hosted using gh pages",
+      "technologies": "JavaScript, React, Bootstrap, React-data-table component(NPM package)",
+      "imageUrl": "/images/empDirectory.png",
+      "imageAlt": "list of employees to search/filter",
+      "repo": "https://github.com/nfinnegan/user_directory",
+      "deployedApp": "https://nfinnegan.github.io/user_directory/"
+    },
+    {
+      "id": 3,
+      "title": "Budget Tracker",
+      "body": " I programmed this application to be a Progressive Web Application (PWA). Utilizing cache, webmanifest, service workers, and indexedDB the functionality of this application will work if a user is offline, and the data will be saved to the DB once a network connection has been reestablished. It's currently deployed to Heroku with MongoDB Atlas.",
+      "technologies": "Service Workers, IndexedDB, Mongoose, MongoDB & Atlas, Node",
+      "imageUrl": "/images/budgetTracker.png",
+      "imageAlt": "transaction list and graph showing spend",
+      "repo": "https://github.com/nfinnegan/budget_tracker",
+      "deployedApp": "https://budgettracker-nf.herokuapp.com/"
+    },
+    {
+      "id": 4,
       "title": "Fridge Foodie",
       "body": "For food lovers or those less confident in the kitchen, Fridge Foodie allows a user search recipes based off 3 ingredients they've entered as well as any dietary restriction selected. Based on the given parameters, it makes a call to Edamam and Spoonacular, two client side APIs to display food and drink pairings matching the input.",
       "technologies": "JavaScript, Bootstrap, jQuery, Animate.css, APIs",
@@ -21,7 +41,7 @@
       "deployedApp": "https://agrassl.github.io/FridgeFoodieRecipes/index.html"
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Tech Blog",
       "body": "Utilizes the MVC architectural structure for the front and backend build out of a tech blog site where a user can create a post, update or delete their post, and also comment on other users posts. Hosted on Heroku with a database and uses user authentication and as well as cookies.",
       "technologies": "JavaScript, Bootstrap, Express/Express-Session,Node, Handlebars, Sequelize, mySQL,APIs",
@@ -29,26 +49,6 @@
       "imageAlt": "Tech Blog Dashboard",
       "repo": "https://github.com/nfinnegan/tech_blog",
       "deployedApp": "https://calm-badlands-36882.herokuapp.com/"
-    },
-    {
-      "id": 4,
-      "title": "Team Generator",
-      "body": "This CLI application dynamically generates an HTML file displaying team members based off user input using the inquirer NPM package.",
-      "technologies": "JavaScript, Inquirer, Jest, Node, TDD, Bootstrap",
-      "imageUrl": "/images/teamgen.png",
-      "imageAlt": "team generator employee list",
-      "repo": "https://github.com/nfinnegan/TeamProfile_Generator",
-      "deployedApp": "https://www.youtube.com/watch?v=rUu5AgAt_Ko"
-    },
-    {
-      "id": 5,
-      "title": "Note Taker",
-      "body": "Responsible for backend build out and connecting it to the front end. Allowing a user to perform CRUD operations. Built out POST, GET & DELETE requests",
-      "technologies": "JavaScript, Node, Express",
-      "imageUrl": "/images/noteTaker.png",
-      "imageAlt": "team generator employee list",
-      "repo": "https://github.com/nfinnegan/note_taker",
-      "deployedApp": "https://nataliesnotetakerapp.herokuapp.com/"
     },
     {
       "id": 6,
@@ -62,13 +62,23 @@
     },
     {
       "id": 7,
-      "title": "Team Generator",
-      "body": "This CLI application dynamically generates an HTML file displaying team members based off user input using the inquirer NPM package.",
-      "technologies": "JavaScript, Inquirer, Jest, Node, TDD, Bootstrap",
-      "imageUrl": "/images/teamgen.png",
-      "imageAlt": "team generator employee list",
-      "repo": "https://github.com/nfinnegan/TeamProfile_Generator",
-      "deployedApp": "https://www.youtube.com/watch?v=rUu5AgAt_Ko"
+      "title": "Note Taker",
+      "body": "Responsible for backend build out and connecting it to the front end. Allowing a user to perform CRUD operations. Built out POST, GET & DELETE requests. Hosted on Heroku.",
+      "technologies": "JavaScript, Node, Express",
+      "imageUrl": "/images/noteTaker.png",
+      "imageAlt": "note taker/to do tracker for a user",
+      "repo": "https://github.com/nfinnegan/note_taker",
+      "deployedApp": "https://nataliesnotetakerapp.herokuapp.com/"
+    },
+    {
+      "id": 8,
+      "title": "Weather Dashboard",
+      "body": "Utilizes OpenWeather API to fetch 5-day forecast based on users input city. Then uses second API to convert city input to lat/long to feed to another API endpoint that gives the 5 day forecast.",
+      "technologies": "JavaScript,jQuery, Moment, APIs, Bootstrap",
+      "imageUrl": "/images/weatherdash.png",
+      "imageAlt": "weather dashboard to show 5 day forecast",
+      "repo": "https://github.com/nfinnegan/Weather_Dashboard",
+      "deployedApp": "https://nfinnegan.github.io/Weather_Dashboard/"
     }
   ]
 }
