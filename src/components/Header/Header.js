@@ -6,11 +6,13 @@ const Header = () => {
   return (
     <header className="container-fluid site-header">
       <div className="nameJob">
-        <img
-          alt="personal head shot"
-          className="personalImage"
-          src="/assets/personal_photo_.png"
-        />
+        <Link to="/">
+          <img
+            alt="personal head shot"
+            className="personalImage"
+            src="/assets/personal_photo_.png"
+          />
+        </Link>
         <div className="inline">
           <h1 className="display-4">
             <span id="wave">👋</span>Hi, I'm Natalie
