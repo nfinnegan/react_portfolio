@@ -10,7 +10,7 @@ const Header = () => {
           <img
             alt="personal head shot"
             className="personalImage"
-            src="/assets/personal_photo_.png"
+            src={process.env.PUBLIC_URL + "/assets/personal_photo_.png"}
           />
         </Link>
         <div className="inline">
