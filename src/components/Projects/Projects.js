@@ -13,7 +13,7 @@ const Projects = ({
   return (
     <div>
       <div className="row container">
-        <div className="col-md-4 projInfo" key={id}>
+        <div className="col-sm-12 col-md-4 projInfo" key={id}>
           <h2 className="projTitle">{title}</h2>
           <hr></hr>
           <p>{body}</p>
@@ -36,9 +36,14 @@ const Projects = ({
             </a>
           </button>
         </div>
-        <div className="col-md-8">
+        <div className="col-sm-12 col-md-8">
           <a className="prjPicLink" href={deployedApp}>
-            <img id="projPix" src={imageURL} alt={imageAlt} />
+            <img
+              className="img-fluid"
+              id="projPix"
+              src={imageURL}
+              alt={imageAlt}
+            />
           </a>
         </div>
       </div>
