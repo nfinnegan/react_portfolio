@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import PDF from "../../../src/asset/Resume_2021.pdf";
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
                 <i class="fab fa-github"></i>
               </a>
               <a
-                href={process.env.PUBLIC_URL + "/assets/Resume_2021.pdf"}
+                href={PDF}
                 target="_blank"
                 rel="noreferrer"
                 class="btn btn-secondary navbar-brand icons"
