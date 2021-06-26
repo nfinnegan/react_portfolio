@@ -25,8 +25,9 @@ const Footer = () => {
                 <i class="fab fa-github"></i>
               </a>
               <a
-                href="/assets/Resume_2021.pdf"
+                href={process.env.PUBLIC_URL + "/assets/Resume_2021.pdf"}
                 target="_blank"
+                rel="noreferrer"
                 class="btn btn-secondary navbar-brand icons"
               >
                 <i class="far fa-file-pdf"></i>
