@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
+import PDF from "../../../src/asset/Resume_2021.pdf";
 
 const Header = () => {
   return (
@@ -23,7 +24,7 @@ const Header = () => {
           <li className="nav-li">
             <a
               className="nav-a"
-              href={process.env.PUBLIC_URL + "/assets/Resume_2021.pdf"}
+              href={PDF}
               target="_blank"
               rel="noreferrer"
               alt="Natalie Finnegan Resume"
