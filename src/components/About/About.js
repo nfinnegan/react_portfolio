@@ -23,7 +23,7 @@ const About = () => {
                 procedures to achieve a proven track record of the highest
                 standard of excellence in customer service and processes.
                 Proficient and knowledgeable in languages such as JavaScript,
-                Node, Express, and jQuery. Motivated by learning and passionate
+                Node, Express, and React. Motivated by learning and passionate
                 about overcoming organizational blocks to maximize results
               </p>
               {/* <!-- CONTACT ME ICONS --> */}
