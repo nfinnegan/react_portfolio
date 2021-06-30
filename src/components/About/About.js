@@ -12,19 +12,19 @@ const About = () => {
             </h5>
             <div className="card-body">
               <p className="card-text">
-                Full Stack Software Engineer and Certified Scrum Master with a
-                certificate in Full Stack Development from Northwestern
-                University. An accomplished leader with extensive experience in
-                operational management/processes and in customer success.
-                Experience spans seed stage start-ups to large sized
-                organizations. Contributing keen insights to delivery of client
-                needs and market demands, while building and scaling teams.
-                Adept at analyzing relevant information and adjusting work
-                procedures to achieve a proven track record of the highest
-                standard of excellence in customer service and processes.
-                Proficient and knowledgeable in languages such as JavaScript,
-                Node, Express, and React. Motivated by learning and passionate
-                about overcoming organizational blocks to maximize results
+                Software Engineer and Certified Scrum Master with a certificate
+                in Full Stack Development from Northwestern University. An
+                accomplished leader with extensive experience in operational
+                management/processes and in customer success. Experience spans
+                seed stage start-ups to large sized organizations. Contributing
+                keen insights to delivery of client needs and market demands,
+                while building and scaling teams. Adept at analyzing relevant
+                information and adjusting work procedures to achieve a proven
+                track record of the highest standard of excellence in customer
+                service and processes. Proficient and knowledgeable in languages
+                such as JavaScript, Node, Express, and React. Motivated by
+                learning and passionate about overcoming organizational blocks
+                to maximize results
               </p>
               {/* <!-- CONTACT ME ICONS --> */}
               <div className="btnFormatting">
